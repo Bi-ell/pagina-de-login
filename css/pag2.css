@@ -1,4 +1,4 @@
-a{
+li{
     color: lightgray;
 }
 
@@ -10,4 +10,30 @@ body{
 img{
     height: 400px;
     width: 800px;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.btn-outline-success{
+    color: violet;
+    border-color: violet;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 .2rem violet;
+}
+
+.btn-outline-success:hover{
+    background-color: violet;
+    color: white;
+    border-color: violet;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active{
+    color: violet;
+    box-shadow: violet;
+    background-color: transparent;
+    border-color: violet;
 }
